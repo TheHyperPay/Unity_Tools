@@ -3,7 +3,6 @@ using Time;
 
 public class main {
 	public static void Main() {
-		long a=BasicTime.Time_MilliSec();
-		Console.WriteLine(a);
+		Console.WriteLine(BasicTime.exchangeMillisecToTime(BasicTime.subtractTime(BasicTime.Time_MilliSec(), BasicTime.Time_MilliSec()+1000000)))
 	}
 }
